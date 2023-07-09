@@ -106,7 +106,7 @@ main {
     margin: 0 auto;
 }
 
-main section{
+main section {
     margin-top: 130px;
 }
 
@@ -130,7 +130,7 @@ main section{
 /* skills related styles */
 .skills-description {
     padding: 30px 150px;
-    color:  #757575;
+    color: #757575;
 }
 
 .skills-container {
@@ -146,10 +146,39 @@ main section{
 }
 
 /* resume section */
-resume-column-title{
+.resume-column-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
 
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
 
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
+}
+
+.resume-container hr{
+    margin: 30px 0px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
